@@ -1,0 +1,24 @@
+  table {
+    border-collapse: collapse;
+  }
+
+  .sandwich{
+    color:white;
+    background-color:#427fef;
+    padding:5px;
+  }
+  
+  tr, th{
+    border: 1px solid #c4dcf3;
+    text-align: left;
+    padding:8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #B0C2B1;
+  }
+
+  tr:last-child {
+    background-color:#427fef;
+  }
+  /* It didn't take too long maybe about 25 minutes. I took a while fidding with the table to try to make it look accurate*/
